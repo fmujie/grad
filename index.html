@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>毕业季</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="https://youth.sdut.edu.cn/favicon.ico">
+    <link rel="stylesheet" href="css/loading.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Demo styles -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- <script src="//api.html5media.info/1.2.2/html5media.min.js"></script> -->
+    <script src="./js/main.js"></script>
+    <script>
+        // // 定义事件侦听器函数
+        function displayWindowSize() {
+            // 获取窗口的宽度和高度，不包括滚动条
+            var wid = document.documentElement.clientWidth;
+            var hei = document.documentElement.clientHeight;
+            console.log(wid);
+            if (wid < 500 || wid == 500) {
+                window.location.href = "./Phone/index.html";
+            }
+        }
+        // 将事件侦听器函数附加到窗口的resize事件
+        window.addEventListener("resize", displayWindowSize);
+        // 第一次调用该函数
+        displayWindowSize();
+    </script>
+    <script>
+        document.onreadystatechange = subSomething; //当页面加载状态改变的时候执行这个方法
+        function subSomething() {
+            if (document.readyState == "complete") //判断页面加载状态
+            {
+                setTimeout(function () {
+                    document.getElementById('loading').style.display = "none";
+                }, 0);
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <audio id="music" src="music/tzdn.mp3" autoplay="true" loop="true">
+    </audio>
+    <div id="loading">
+        <h1 data-content="Loading...">Loading...</h1>
+        <div class="socket">
+            <div class="gel center-gel">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c1 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c2 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c3 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c4 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c5 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c6 r1">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+
+            <div class="gel c7 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+
+            <div class="gel c8 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c9 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c10 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c11 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c12 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c13 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c14 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c15 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c16 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c17 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c18 r2">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c19 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c20 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c21 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c22 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c23 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c24 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c25 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c26 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c28 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c29 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c30 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c31 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c32 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c33 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c34 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c35 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c36 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c37 r3">
+                <div class="hex-brick h1"></div>
+                <div class="hex-brick h2"></div>
+                <div class="hex-brick h3"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- fixed导航栏 -->
+    <div id="myScrollspy" class="nav">
+        <a href="https://youth.sdut.edu.cn/" target="_blank">
+            <div class="navbar-logo">
+            </div>
+        </a>
+        <div id="To2" class="navbar-middle1">
+            <li id="Li1" class="textNav" onclick="logg(this)">青春不散</li>
+        </div>
+        <div id="To3" class="navbar-middle2">
+            <li id="Li2" class="textNav" onclick="logg(this)">青春记忆</li>
+        </div>
+        <div id="To4" class="navbar-middle3">
+            <li id="Li3" class="textNav" onclick="logg(this)">青春剪影</li>
+        </div>
+        <div id="To5" class="navbar-middle4">
+            <li id="Li4" class="textNav" onclick="logg(this)">青春列车</li>
+        </div>
+        <div class="navbar-right" id="btn"></div>
+    </div>
+    <!-- 鼠标点击跟随样式 -->
+    <span id="msg"></span>
+    <div id="followMouseContent">
+        <img src="images/followMouse.ico" alt="">
+    </div>
+    <!-- 鼠标点击跟随样式 -->
+    <!-- fixed导航栏 -->
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+            <!-- 第一板块 -->
+            <div id="sld1" class="swiper-slide">
+                <div class="content1">
+                    <div class="sld1_wrap">
+                        <img class="trans_fade_image" src="images/banner1.webp" />
+                        <div class="wrap_text">
+                            <p>
+                                又是一年毕业季
+                            </p>
+                            <p class="wrap_text2">
+                                ——明天，你好
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sld1_bottom">
+                        <div class="bt_left">
+                            <div class="bt_left1">
+                                <p>在春夏秋冬之外，还有第五个季节，它属于即将离开母校，前往未知领域的学子，它见证了无数人的离别，包含了太多的笑与泪，这个季节叫做——毕业季。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bt_right">
+                            <div class="bt_right1">
+                                <p>让我与你握别，再轻轻抽出我的手，
+                                    华年从此停顿，热泪在心中汇成河流。
+                                    是那样万般无奈的凝视，渡口旁找不到一朵相送的花。就把祝福别在襟上吧。而明日，明日又隔天涯。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第一板块 -->
+            <!-- 第二板块 -->
+            <div id="sld2" class="swiper-slide">
+                <div class="sld2_wrap">
+                    <div class="videoCotent">
+                        <div class="video">
+                            <div class="vdControlsWrap">
+                                <div class="vdControlsLeft">
+                                    <li id="vdConLi1" onclick="LiBorder1(this,'./movie/ttogosuot.mp4')">视频一</li>
+                                </div>
+                                <div class="vdControlsRight">
+                                    <li id="vdConLi2" onclick="LiBorder2(this,'./movie/gbbsyw.qlv')">视频二</li>
+                                </div>
+                            </div>
+                            <div class="videoWrap">
+                                <video controls autoplay="true" style="width: 100%;height:100%;object-fit:fill">
+                                    <!-- <source src="./movie/ttogosuot.mp4" type="video/mp4"> -->
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 第二板块 -->
+            <!-- 第三板块 -->
+            <div id="sld3" class="swiper-slide">
+                <div class="sld3_wrap">
+                    <div class="chatWrap">
+                        <div class="chatWrapLeft">
+                            <div class="chatLineLeftContent">
+                            </div>
+                            <div class="chatLineLeftContent">
+                            </div>
+                            <div class="chatLineLeftContent">
+                            </div>
+                            <div class="chatLineLeftContent">
+                                <div class="userHead1"></div>
+                                <div class="textLeftContent">
+                                    <div class="leftTriangle"></div>
+                                    <div class="leftTextWrap">
+                                        <p>
+                                            以前不住校，高三每天6点半骑自行车上学，23点放学骑回家，一天17个小时。放学后还不想回家，大半夜闲逛。
+                                            　　现在我必须住校，每年初春新秋坐火车上学，仲夏大寒卧铺回家，算一算，300天。
+                                            <br> 　<br>　于是，我知道什么叫想家。
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatLineLeftContent">
+                                <div class="userHead2"></div>
+                                <div class="textLeftContent">
+                                    <div class="leftTriangle"></div>
+                                    <div class="leftTextWrap">
+                                        <p>
+                                            大学前我和同桌上课拉过手，掐过腿。现在我的旁边每节课是不同的面孔，打了招呼，下课却忘记了这张脸。
+                                            <br> 　<br>　于是，我听懂了《同桌的你》。
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatLineLeftContent">
+                                <div class="userHead3"></div>
+                                <div class="textLeftContent">
+                                    <div class="leftTriangle"></div>
+                                    <div class="leftTextWrap">
+                                        <p>
+                                            父母送我去大学报到，临走的时候，我妈来和我告别，我问我爸呢，我妈说“你爸怕你哭，就没来。”
+                                            　　大二暑假我回家，我妈无意中说“其实你爸当时就在马路对面。你转身进学校，你爸就哭了。”
+                                            <br> 　<br>　于是，我懂了，在成长面前，爸爸也是脆弱的。
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatLineLeftContent">
+                                <div class="userHead4"></div>
+                                <div class="textLeftContent">
+                                    <div class="leftTriangle"></div>
+                                    <div class="leftTextWrap">
+                                        <p>
+                                            大学报到，我父母陪同，铺床、买用品。我有个室友，自己在那边铺床。后来我才知道他是自己来报到的，我很佩服他，也很佩服他父母这么放得开孩子，自愧不如。
+                                            　　有一次吃饭，我和这个室友说，我很佩服你自己来学校。他说：“你羡慕我独立，我羡慕你身边很温暖。”
+                                            <br> 　　然后，我懂得，当我看别人的时候，别人也在看我，为何我要忽略自己?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatLineLeftContent">
+                                <div class="userHead5"></div>
+                                <div class="textLeftContent">
+                                    <div class="leftTriangle"></div>
+                                    <div class="leftTextWrap">
+                                        <p>
+                                            大学生活的第一个晚上，我一个室友从箱子里拿出一张卫生巾，炫耀这是他第一次到他女友家过夜偷出来的纪念，脸上还荡漾着幸福的笑容。谁知过了2个礼拜，分了。
+                                            　　大一结束的时候换寝室，暖瓶撒了一桌子水。用光了纸巾，那同学从抽屉拿出那张卫生巾……吸水效果很好。
+                                            <br> 　　于是，我懂了，该放下的就放下，有些所谓的纪念，也就那么一点用处。
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chatWrapMiddle"></div>
+                        <div class="chatWrapRight">
+                            <div class="chatLineRightContent">
+                            </div>
+                            <div class="chatLineRightContent">
+                            </div>
+                            <div class="chatLineRightContent">
+                            </div>
+                            <div class="chatLineRightContent">
+                            </div>
+                            <div class="chatLineRightContent">
+                            </div>
+                            <div class="chatLineRightContent">
+                                <div class="textLeftContent">
+                                    <div class="rightTextWrap">
+                                        <p>
+                                            高中时候上课偷摸看个《青年文摘》、《当代歌坛》，惬意得不得了。一边看着小说，一边提防着老师，看得也不亦乐乎。
+                                            　　上了大学，有次偶然经过报亭，买了本《青年文摘》，给了老板三块，老板说三块五。我问什么时候涨了的，老板说涨了有一年多了。我才发现，大学之后，再没买过《青年文摘》。
+                                            <br>　　于是，我懂得，是不是有些老友和快乐我们慢慢忘记了?
+                                        </p>
+                                    </div>
+                                    <div class="rightTriangle"></div>
+                                </div>
+                                <div class="userHead7"></div>
+                            </div>
+                            <div class="chatLineRightContent">
+                                <div class="textLeftContent">
+                                    <div class="rightTextWrap">
+                                        <p>
+                                            大一的时候有一次拉肚子，给妈妈打电话不停地诉苦。
+                                            　　大二时我一个室友打球咬掉了一块舌头，缝上了，有一段时间不能说话。后来我问他你妈知道么，他说没告诉，怕她担心。
+                                            <br>　　于是，我懂了，我的痛苦会被距离放大，千里之外，妈妈比我更痛苦。
+                                        </p>
+                                    </div>
+                                    <div class="rightTriangle"></div>
+                                </div>
+                                <div class="userHead9"></div>
+                            </div>
+                            <div class="chatLineRightContent">
+                                <div class="textLeftContent">
+                                    <div class="rightTextWrap">
+                                        <p>
+                                            大学之前，自己只管学习，脏衣服一扔有人洗，饿了张嘴有饭吃。那时候我还嫌衣服少，饭不好吃。
+                                            　　上了大学，看着床底下塞得一坨坨的脏衣服，捶了捶腰只能继续一件一件地洗。盯着食堂的饭菜，叹了叹气，只能硬着头皮往下咽。
+                                            <br> <br>　　于是，懂了，以为平平常常的东西，等自己完全承担了，就觉得不那么容易了。
+
+                                        </p>
+                                    </div>
+                                    <div class="rightTriangle"></div>
+                                </div>
+                                <div class="userHead10"></div>
+                            </div>
+                            <div class="chatLineRightContent">
+                                <div class="textLeftContent">
+                                    <div class="rightTextWrap">
+                                        <p>
+                                            大一下学期的时候给妈妈打电话，有段时间她没说几句就放了电话，她说她在打麻将。
+                                            　　寒假回家的时候我爸告诉我，其实妈妈那段时间正在住院。半个月里，每次接我电话之前，她就叫病房里的人不要说话，也不敢和我聊很长时间，怕露馅。
+                                            <br> 　<br>　于是，我懂得，有时候，隐瞒也是一种爱。
+                                        </p>
+                                    </div>
+                                    <div class="rightTriangle"></div>
+                                </div>
+                                <div class="userHead11"></div>
+                            </div>
+                            <div class="chatLineRightContent">
+                                <div class="textLeftContent">
+                                    <div class="rightTextWrap">
+                                        <p>
+                                            刚上大一时候，一个室友在卫生巾室友怂恿下果断踹了在外地的现任女友，坐了2个小时地铁去松江向另一女生表白，无奈惨痛被拒。大学过半，至今仍孤身一人。
+                                            <br> <br />于是，我懂了，在没有确定下家之前，不要放了上家。
+                                        </p>
+                                    </div>
+                                    <div class="rightTriangle"></div>
+                                </div>
+                                <div class="userHead12"></div>
+                            </div>
+                            <!-- <div class="chatLineRightContent">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第三板块 -->
+            <!-- 第四板块 -->
+            <div id="sld4" class="swiper-slide">
+                <div class="sld4_wrap">
+                    <div class="content_photo">
+                        <img id="image1" class="img01" src="images/1.webp" />
+                        <img id="image2" class="img02" src="images/2.webp" />
+                        <img id="image3" class="img03" src="images/3.webp" />
+                        <img id="image4" class="img04" src="images/4.webp" />
+                        <img id="image5" class="img05" src="images/5.webp" />
+                        <img id="image6" class="img06" src="images/6.webp" />
+                        <img id="image7" class="img07" src="images/7.webp" />
+                        <img id="image8" class="img08" src="images/8.webp" />
+                        <img id="image9" class="img09" src="images/9.webp" />
+                    </div>
+                </div>
+            </div>
+            <!-- 第四板块 -->
+            <!-- 第五板块 -->
+            <div id="sld5" class="swiper-slide">
+                <div class="sld5_wrap">
+                    <div class="placeHolder"></div>
+                    <div class="sld5Wrap">
+                        <div class="sld5WrapLeft">
+                            <div class="sld5WrapLeftTop">
+                                <div class="angleLeft"></div>
+                            </div>
+                            <div class="sld5WrapLeftBottom">
+                                <div class="angleLeft"></div>
+                            </div>
+                        </div>
+                        <div class="sld5WrapMiddle">
+                            <div class="sld5WrapMiddleText">
+                                <div>
+                                    <p class="sld5WrapMiddleText1">毕业季·考研篇</p>
+                                    <p class="sld5WrapMiddleText11">
+                                        我觉得对于大多数学科来讲，本科毕业后还是先考研比较好。因为目前国内在本科阶段的教育实际上还是与之前的高中教育一样，是属于知识普及型的，目的在于向学生传授特定领域里的基本知识。<a
+                                            href="http://kaoyan.eol.cn/kao_yan_za_tan_3914/20091014/t20091014_412723.shtml">
+                                            …[详细]</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sld5WrapMiddleText">
+                                <div>
+                                    <p class="sld5WrapMiddleText2">毕业季·考研篇</p>
+                                    <p class="sld5WrapMiddleText11">
+                                        公考是一段苦哈哈的过程，看得见的是一朝成名俱不辜负，看不见的万卷诗书十年寒窗。毛姆说“只有诗人和圣徒才能坚信，在沥青路面上辛勤浇水会培植出百合花来”<a
+                                            href="http://kaoyan.eol.cn/bao_kao/jing_yan_jiao_liu/201507/t20150706_1285086_2.shtml">
+                                            …[详细]</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sld5WrapMiddleText">
+                                <div>
+                                    <p class="sld5WrapMiddleText1">毕业季·就业篇</p>
+                                    <p class="sld5WrapMiddleText11">
+                                        学习不是目的，工作才是根本。现在的实际情况是：大学培养的许多毕业生虽然都很听话，学习很用功，但却缺乏创造力和独立思考，更欠缺JUST DO IT
+                                        的执行力。所以我个人的建议是不如趁着年轻<a
+                                            href="http://kaoyan.eol.cn/kao_yan_za_tan_3914/20091014/t20091014_412676.shtml">
+                                            …[详细]</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sld5WrapMiddleText">
+                                <div>
+                                    <p class="sld5WrapMiddleText2">毕业季·考研篇</p>
+                                    <p class="sld5WrapMiddleText11">
+                                        随着我国走向转型化进程及社会就业压力加剧，创业逐渐成为大学生的一种职业选择方式。大学生作为我国年轻高级知识人群，有着较为丰富知识储备和相较于其他高级知识分子
+                                        <a
+                                            href="http://shaanxi.eol.cn/shannxihot/201605/t20160518_1399396.shtml">…[详细]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sld5WrapRight">
+                            <div class="sld5WrapRightTop">
+                                <div class="angleRight"></div>
+                            </div>
+                            <div class="sld5WrapRightBottom">
+                                <div class="angleRight"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第五板块 -->
+            <!-- 第六板块 -->
+            <div id="sld6" class="swiper-slide">
+                <div class="sld6_wrap">
+                    <div class="placeHolder"></div>
+                    <div class="sld6Top">
+                        <div class="sld6TextWrap">
+                            <div class="sld6TopText1Content">
+                                <p class="sld6TopText1">结束语</p>
+                            </div>
+                            <div class="sld6TopText2Content">
+                                <p class="sld6TopText2">
+                                    六月炎炎诵离别，夏雨丝丝吟愁殇。
+                                </p>
+                                <p class="sld6TopText2">
+                                    毕业照定格住的，是灿烂的笑脸；宿舍中沉淀的，是往昔的点点滴滴。床边的小熊，你是否还每天晚上抱着它入眠；墙角的篮球，是否还有让你心情变好的魔力。</p>
+                                <p class="sld6TopText2"> 相离莫相忘，且行且珍惜。</p>
+                                <p class="sld6TopText2"> 再见了相互嫌弃的老同学，再见了来不及说出的谢谢，再见了不会再有的留堂作业，再见了我留给你毕业册的最后一页。
+                                </p>
+                                <p class="sld6TopText2"> 笑靥如花，执笔续写惜度年华；四年匆匆，不要忘记曾经的感动。
+                                </p>
+                                <p class="sld6TopText2">
+                                    大胆向前走吧！做一个热忱的青年，勇往直前，无所畏惧，不负曾经努力的自己。当你回头时会发现，你的家人、你的朋友、你爱的人，你想要的，一直在你脑海中，从未离去。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sld6Middle">
+                        <strong>
+                            <p>你在青春陪过谁，谁在青春陪过你。</p>
+                            <p class="endText1">
+                                时光是刹那的、短暂的，所以，那些爱与温暖，总是分外匆匆，未及珍惜，转眼已逝。时光又是永恒的、漫长的，所以，那些爱与温暖，总是永刻心底，一生一世，无法忘记。</p>
+                            <div class="endText2">
+                                <p>
+                                    我也曾经想回到那些日子里，有着做不完的作业，跟死党抱怨学校的伙食，一起参加运动会，一起上课下课一起哭和闹，就算过的有多累多么循规蹈矩，却觉得一切还充满希望。但我知道，人生只能向前。
+                                </p>
+                            </div>
+                        </strong>
+                    </div>
+                    <div class="sld6Bottom">
+                        <div>
+                            <p class="sld6BottomTop"><strong>策划：姜小凤、刘世宝、夏楚翘&nbsp;&nbsp; &nbsp; &nbsp; 美工：李正远
+                                    &nbsp;&nbsp; &nbsp; &nbsp;程序：房杰祥</strong></p>
+                        </div>
+                        <div>
+                            <p class="copyRight">山东理工大学学生工作部（处）、武装部　青春在线网站版权所有</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第六板块 -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="js/swiperMain.js"></script>
+    <script src='js/jquery.min.js'></script>
+</body>
+
+</html>
